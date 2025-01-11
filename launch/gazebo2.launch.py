@@ -38,12 +38,12 @@ def generate_launch_description():
         arguments=[
             '-entity', 'my_test_robot',
             '-topic', '/robot_description',
-            # '-x', '1.0', 
-            # '-y', '2.0', 
-            # '-z', '0.5',  
-            # '-R', '0.0',  
-            # '-P', '0.0',  
-            # '-Y', '1.57'  
+            '-x', '1.0', 
+            '-y', '0.0', 
+            '-z', '0.5',  
+            '-R', '0.0',  
+            '-P', '0.0',  
+            '-Y', '0.0'  
         ],
         output='screen'
     )
